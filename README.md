@@ -8,7 +8,7 @@ To setup the project complete the following steps:
 1) Clone the repo.
 2) Create a database named drupal_8 and import the full_database_export.sql file into it.
 3) Add a virtual host block pointing to drupal_8_behat_example/web.
-3) the database credentials used are user root with no password.
+4) The database credentials used are user root with no password so if this does match your localhost setup then update the settings.php file with your database credentials.
 
 You will then be able to run the behat example feature by running vendor/bin/behat from the project root.
 
